@@ -12,7 +12,7 @@ public class T00 {
         sisa = a % 2;
         if (sisa == 0) {
             System.out.println("Bilangan pertama: Genap");
-        } else {z
+        } else {
             System.out.println("Bilangan pertama:Ganjil");
         }
         sisa = b % 2;
