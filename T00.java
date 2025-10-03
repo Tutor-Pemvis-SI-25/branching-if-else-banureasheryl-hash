@@ -5,7 +5,7 @@ public class T00 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int a, b, sisa, hP, hK;
+        int a, b, sisa;
 
         a = Integer.parseInt(input.nextLine());
         b = Integer.parseInt(input.nextLine());
@@ -31,18 +31,16 @@ public class T00 {
             }
         }
         if (a % 2 == 0 && b % 2 == 0) {
-            hP = a + b;
-            System.out.println("Hasil penjumlahan: " + hP);
+            System.out.println("Hasil penjumlahan: " + a + b);
         } else {
             if (a % 2 != 0 && b % 2 != 0) {
-                hK = a * b;
-                System.out.println("Hasil perkalian: " + hK);
+                System.out.println("Hasil perkalian: " + a * b);
             } else {
                 if (a % 2 != 0 && b % 2 == 0) {
-                    System.out.println("Berbeda jenis");
+                    System.out.println("Berbeda Jenis");
                 } else {
                     if (a % 2 == 0 && b % 2 != 0) {
-                        System.out.println("Berbeda jenis");
+                        System.out.println("Berbeda Jenis");
                     }
                 }
             }
