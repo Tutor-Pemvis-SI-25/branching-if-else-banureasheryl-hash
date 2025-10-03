@@ -21,13 +21,13 @@
                     <output expression="&quot;Bilangan pertama: Genap&quot;" newline="True"/>
                 </then>
                 <else>
-                    <output expression="&quot;Bilangan pertama:Ganjil&quot;" newline="True"/>
+                    <output expression="&quot;Bilangan pertama: Ganjil&quot;" newline="True"/>
                 </else>
             </if>
             <assign variable="sisa" expression="b mod 2"/>
             <if expression="sisa=0">
                 <then>
-                    <output expression="&quot;Bilangan kedua :Genap&quot;" newline="True"/>
+                    <output expression="&quot;Bilangan kedua : Genap&quot;" newline="True"/>
                 </then>
                 <else>
                     <output expression="&quot;Bilangan kedua: Ganjil&quot;" newline="True"/>

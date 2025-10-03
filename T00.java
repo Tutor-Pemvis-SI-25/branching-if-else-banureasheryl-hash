@@ -13,11 +13,11 @@ public class T00 {
         if (sisa == 0) {
             System.out.println("Bilangan pertama: Genap");
         } else {
-            System.out.println("Bilangan pertama:Ganjil");
+            System.out.println("Bilangan pertama: Ganjil");
         }
         sisa = b % 2;
         if (sisa == 0) {
-            System.out.println("Bilangan kedua :Genap");
+            System.out.println("Bilangan kedua : Genap");
         } else {
             System.out.println("Bilangan kedua: Ganjil");
         }
