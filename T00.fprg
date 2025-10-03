@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <flowgorithm fileversion="4.2">
     <attributes>
-        <attribute name="name" value="TU01"/>
+        <attribute name="name" value="T00(2)"/>
         <attribute name="authors" value="user"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-10-01 09:21:52 PM"/>
-        <attribute name="created" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0wMTswODoyNjo0NiBQTTsyODQ3"/>
-        <attribute name="edited" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0wMTswODoyNjo1MyBQTTsxO3VzZXI7TEFQVE9QLVNLRVJPR0pNOzIwMjUtMDktMDI7MDk6MDY6MzYgUE07Z2FuamlsIGdlbmFwLmZwcmc7NzU4Ng=="/>
-        <attribute name="edited" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0wMTswOToyMTo1MiBQTTsxOzI5NDg="/>
+        <attribute name="saved" value="2025-10-03 03:43:27 PM"/>
+        <attribute name="created" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0wMzswMzo0MjozOCBQTTsyODQz"/>
+        <attribute name="edited" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0wMzswMzo0Mjo0OSBQTTsxO3VzZXI7TEFQVE9QLVNLRVJPR0pNOzIwMjUtMTAtMDE7MDg6MjY6NDYgUE07VFUwMS5mcHJnOzY2NjE="/>
+        <attribute name="edited" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0wMzswMzo0MzoyNyBQTTsxOzI5NTA="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -27,7 +27,7 @@
             <assign variable="sisa" expression="b mod 2"/>
             <if expression="sisa=0">
                 <then>
-                    <output expression="&quot;Bilangan kedua : Genap&quot;" newline="True"/>
+                    <output expression="&quot;Bilangan kedua: Genap&quot;" newline="True"/>
                 </then>
                 <else>
                     <output expression="&quot;Bilangan kedua: Ganjil&quot;" newline="True"/>
@@ -35,7 +35,7 @@
             </if>
             <if expression="a=b">
                 <then>
-                    <output expression="&quot;kedua bilangan sama besar&quot;" newline="True"/>
+                    <output expression="&quot;Kedua bilangan sama besar&quot;" newline="True"/>
                 </then>
                 <else>
                     <if expression="a&gt;b">
@@ -50,22 +50,22 @@
             </if>
             <if expression="a mod 2=0 and b mod 2=0">
                 <then>
-                    <output expression="&quot; Hasil penjumlahan:&quot;&amp;a+b" newline="True"/>
+                    <output expression="&quot;Hasil penjumlahan: &quot;&amp;a+b" newline="True"/>
                 </then>
                 <else>
                     <if expression="a mod 2!=0 and b mod 2 !=0">
                         <then>
-                            <output expression="&quot; Hasil perkalian:&quot;&amp; a*b" newline="True"/>
+                            <output expression="&quot;Hasil perkalian: &quot;&amp; a*b" newline="True"/>
                         </then>
                         <else>
                             <if expression="a mod 2!=0 and b mod 2=0">
                                 <then>
-                                    <output expression="&quot;berbeda jenis&quot;" newline="True"/>
+                                    <output expression="&quot;Berbeda Jenis&quot;" newline="True"/>
                                 </then>
                                 <else>
                                     <if expression="a mod 2=0 and b mod 2!=0">
                                         <then>
-                                            <output expression="&quot;berbeda jenis&quot;" newline="True"/>
+                                            <output expression="&quot;Berbeda Jenis&quot;" newline="True"/>
                                         </then>
                                         <else/>
                                     </if>
