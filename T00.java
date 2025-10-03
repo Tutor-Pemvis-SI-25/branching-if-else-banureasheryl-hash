@@ -31,10 +31,10 @@ public class T00 {
             }
         }
         if (a % 2 == 0 && b % 2 == 0) {
-            System.out.println(" Hasil penjumlahan:" + a + b);
+            System.out.println(" Hasil penjumlahan:" + (a + b));
         } else {
             if (a % 2 != 0 && b % 2 != 0) {
-                System.out.println(" Hasil perkalian:" + a * b);
+                System.out.println(" Hasil perkalian:" +( a * b));
             } else {
                 if (a % 2 != 0 && b % 2 == 0) {
                     System.out.println("berbeda jenis");
